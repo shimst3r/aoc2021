@@ -4,10 +4,12 @@ This repository contains my solutions for the 2021 edition of [Advent of Code](h
 
 ## Overview
 
-- [Day 1](./day1)
-- [Day 2](./day2)
-- [Day 3](./day3)
-- [Day 4](./day4)
+- [Day 1](./day1) ⭐⭐
+- [Day 2](./day2) ⭐⭐
+- [Day 3](./day3) ⭐⭐
+- [Day 4](./day4) ⭐⭐
+
+Stars so far: 8/8
 
 ## Setup
 
