@@ -13,25 +13,21 @@ def load_data():
 
 
 def proliferate(initial_state, days):
-    state = np.array(initial_state, copy=True)
+    state = np.bincount(initial_state, minlength=9)
     for _ in tqdm(range(days)):
-        state = state - 1
-        state = np.append(
-            state,
-            np.array([8 for _ in range(len(state[state < 0]))]),
-        )
-        state[state < 0] = 6
+        state = np.roll(state, -1)
+        state[6] += state[8]
     return state
 
 
 def task1():
     initial_state = load_data()
-    print(len(proliferate(initial_state, 80)))
+    print(np.sum(proliferate(initial_state, 80)))
 
 
 def task2():
     initial_state = load_data()
-    print(len(proliferate(initial_state, 256)))
+    print(np.sum(proliferate(initial_state, 256)))
 
 
 def main():
