@@ -9,8 +9,9 @@ This repository contains my solutions for the 2021 edition of [Advent of Code](h
 - [Day 3](./day3) ⭐⭐
 - [Day 4](./day4) ⭐⭐
 - [Day_5](./day5) ⭐
+- [Day_6](./day6) ⭐⭐
 
-Stars so far: 9/10
+Stars so far: 11/12
 
 ## Setup
 
