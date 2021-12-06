@@ -1,0 +1,6 @@
+icc_rt
+ipython
+jax[cpu]
+jupyter
+numba
+numpy
